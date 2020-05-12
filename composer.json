@@ -1,0 +1,22 @@
+{
+    "name": "o.bielokudrenko/t1",
+    "authors": [
+        {
+            "name": "o.bielokudrenko",
+            "email": "oleksii.bielokudrenko@pm.bet"
+        }
+    ],
+    "require": {
+        "php-ai/php-ml": "^0.8.0",
+        "symfony/console": "^5.0",
+        "symfony/var-dumper": "^5.0",
+        "ext-gd": "*",
+        "symfony/finder": "^5.0",
+        "jtm/timer": "^0.1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    }
+}
