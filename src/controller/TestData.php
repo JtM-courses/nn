@@ -29,7 +29,7 @@ class TestData extends Command
         }
 
         $finder = new Finder();
-        $finder->in(__DIR__ . '/../res/')->name('8.30.a.n.png');
+        $finder->in(__DIR__ . '/../res/')->name('0.30.a.n.png');
         foreach ($finder as $fileInfo) {
             $imgColors = [];
             $this->getColor($fileInfo, $imgColors);

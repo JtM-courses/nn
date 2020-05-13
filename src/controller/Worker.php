@@ -66,7 +66,7 @@ class Worker extends Command
         } else {
             @touch($nnFile);
             $this->output->write('create ...');
-            $nn = new MLPClassifier(1024, [[16, new PReLU()], [16, new PReLU()]], ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']);
+            $nn = new MLPClassifier(1024, [[32, new PReLU()], [32, new PReLU()]], ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']);
             $this->output->writeln(' done');
         }
         $all = [];
